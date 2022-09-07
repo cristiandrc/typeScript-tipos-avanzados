@@ -20,5 +20,5 @@ const example = (input: unknown) =>{
 
 console.log(example('hi'))
 console.log(example([1,2]))
-console.log(example(3))
+console.log(example(3))//here stop
 console.log(example('hi, after fail'))
