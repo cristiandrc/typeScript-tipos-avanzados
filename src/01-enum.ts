@@ -1,16 +1,16 @@
 //los enum es buena practica nombrarlos en mayusculas
-enum ROLES {
+export enum ROLES {
   ADMIN = 'admin',
   USER = 'user',
   OWNER = 'owner'
 }
 
-type User = {
+export type User = {
   username: string,
   role: ROLES
 }
 
-const crisUser: User = {
+export const crisUser: User = {
   username:'cristian',
   role: ROLES.ADMIN
 }
