@@ -5,7 +5,7 @@ export const createProduct = (
 ) => {
   return {
     id,
-    stock: stock || 10,
+    stock: stock ?? 10,
     isNew
   }
 }
