@@ -31,7 +31,7 @@ export const updateProduct = (id:Product['id'] , changes: UpdateProductDto):Prod
 
 export const findProduct = (dto:FindProductDto):Product[] => {
   // const filterProducts = products.filter(e => )
-
+  // dto.tags.push()
   return products
 }
 

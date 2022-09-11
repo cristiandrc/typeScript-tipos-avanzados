@@ -28,5 +28,6 @@ price: 90
 
 findProduct({
   stock: 10,
-  color: 'blue'
+  color: 'blue',
+  tags:['asdf']
 })
